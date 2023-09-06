@@ -1,0 +1,10 @@
+# Masukkan angka
+p = float(input("panjang balok berapa? : "))
+l = float(input("lebar balok berapa? : "))
+t = float(input("tinggi balok berapa? : "))
+
+# Rumus volume balok
+volume = p * l * t
+
+# Hasil
+print(f"Volume balok dengan panjang {p}, lebar {l}, dan tinggi {t} adalah {volume}")
