@@ -1,8 +1,4 @@
 #variable dan tipe data
-
-import rlcompleter
-
-
 x = 5 #integer
 y = 10 
 z = "saya" #string
