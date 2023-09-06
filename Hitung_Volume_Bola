@@ -1,0 +1,12 @@
+# Program Menghitung Volume Bola
+
+print(f"---> Yuk Menghitung Volume Bola !!")
+
+# Masukkan Angka-angkanya
+r = float(input("jari-jari bolanya berapa ? : "))
+
+# Rumus volume bola
+v = (4/3) * 3.14 * r ** 3
+
+# Menampilkan hasil
+print(f"Volume bola dengan jari-jari {r} adalah {v}")
