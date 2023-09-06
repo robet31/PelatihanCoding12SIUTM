@@ -1,0 +1,37 @@
+# Operasi Aritmatika
+a = float(input("Masukkan angka pertama: "))
+b = float(input("Masukkan angka kedua: "))
+
+# Meminta pengguna memilih operasi aritmatika
+print("Pilih operasi aritmatika:")
+print("1. Exponen/pangkat")
+print("2. Perkalian")
+print("3. Pembagian")
+print("4. Modulus")
+print("5. Floor Division")
+print("6. Penjumlahan")
+print("7. Pengurangan")
+
+pilihan = int(input("Masukkan nomor operasi yang ingin Anda lakukan (1-7): "))
+# Menghitung hasil berdasarkan pilihan pengguna
+if pilihan == 1:
+    hasil = a ** b
+elif pilihan == 2:
+    hasil = a * b
+elif pilihan == 3:
+    hasil = a / b
+elif pilihan == 4:
+    hasil = a % b
+elif pilihan == 5:
+    hasil = a // b
+elif pilihan == 6:
+    hasil = a + b
+elif pilihan == 7:
+    hasil = a - b
+else:
+    print("Pilihan tidak valid")
+    hasil = None  
+
+# Menampilkan hasil (jika valid)
+if hasil is not None:
+    print(f'Hasil operasi aritmatika yang dipilih: {hasil}')
