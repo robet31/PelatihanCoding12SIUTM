@@ -1,7 +1,11 @@
+#Program Menghitung Volume Balok
+
+print(f"Yuk Menghitung Volume Balok")
+
 # Masukkan angka
-p = float(input("panjang balok berapa? : "))
-l = float(input("lebar balok berapa? : "))
-t = float(input("tinggi balok berapa? : "))
+p = float(input("panjangnya berapa? : "))
+l = float(input("lebarnya berapa? : "))
+t = float(input("tingginya berapa? : "))
 
 # Rumus volume balok
 volume = p * l * t
